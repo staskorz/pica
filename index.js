@@ -34,9 +34,11 @@ try {
   __cvs = null;
 }
 
+WEBGL = false;
+
 var resize_js     = require('./lib/resize_js');
 var resize_js_ww  = require('./lib/resize_js_ww');
-var resize_webgl  = require('./lib/resize_webgl');
+//var resize_webgl  = require('./lib/resize_webgl');
 var resize_array  = require('./lib/js/resize_array');
 var unsharp       = require('./lib/js/unsharp');
 var assign        = require('object-assign');
